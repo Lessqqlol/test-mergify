@@ -1,0 +1,1 @@
+SSTI template rendering test file
