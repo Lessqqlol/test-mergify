@@ -1,0 +1,1 @@
+SSTI test file v2 - testing template rendering
