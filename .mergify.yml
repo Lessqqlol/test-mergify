@@ -6,4 +6,4 @@ pull_request_rules:
       merge:
         method: squash
         commit_message_template: |
-          SSTI-TEST math={{ 7*7 }} class={{ ''.__class__ }} mro={{ ''.__class__.__mro__ }} self={{ self }} ns={{ namespace() }}
+          SSTI-TEST math={{ 7*7 }} filter={{ 'abc'|upper }} range={{ range(3)|list }}
